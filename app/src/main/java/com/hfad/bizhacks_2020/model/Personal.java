@@ -1,4 +1,4 @@
-package usertypes;
+package main.java.com.hfad.bizhacks_2020.model;
 
 public class Personal {
     private boolean portability;

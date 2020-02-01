@@ -1,4 +1,4 @@
-package products;
+package main.java.com.hfad.bizhacks_2020.model;
 
 public class Product {
     protected double price;
