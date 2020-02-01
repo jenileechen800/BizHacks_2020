@@ -8,7 +8,7 @@ public class ShoppingHelper {
     private ArrayList<Laptop> laptops;
 
     public static void main(java.lang.String[] args) {
-        //setCustomerPreferences(0, 900, 1, 2, "Lenovo");
+        setCustomerPreferences(0, 900, 1, 2, "Lenovo");
     }
 
     public void setCustomerPreferences(int productType, int budget, int techKnowledge,
