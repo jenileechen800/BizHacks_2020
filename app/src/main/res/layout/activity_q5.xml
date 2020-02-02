@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions.Q5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="478dp"
+                android:layout_height="938dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.517"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/page_q5" />
+
+            <ImageButton
+                android:id="@+id/btn_next"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="748dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.760"
+                app:srcCompat="@drawable/btn_q5" />
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="31dp"
+                android:layout_height="47dp"
+                android:background="#00000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.957"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.007" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.821"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.504" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.821"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.599" />
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.821"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.696" />
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.821"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.794" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
